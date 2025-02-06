@@ -1,7 +1,7 @@
 import s from "./ReviewsCard.module.css";
 
 const imgDefault =
-  "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png";
+  "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg";
 
 const ReviewsCard = ({ review }) => {
   const { author_details, author, content, created_at } = review;
